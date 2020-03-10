@@ -1,0 +1,39 @@
+.rainbowcolor {
+  animation: rainbowcolor 600ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbowcolor {
+  0% {
+    color: red;
+  }
+
+  15% {
+    color: orange;
+  }
+
+  30% {
+    color: yellow;
+  }
+
+  45% {
+    color: green;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  75% {
+    color: indigo;
+  }
+
+  90% {
+    color: purple;
+  }
+}
+
+.blackout {
+  background-color: black;
+  color: black !important;
+}
